@@ -42,7 +42,7 @@ func main() {
 		input = readln();
 		if input == "" {
 			continue;
-		} else if []rune(input)[0] == '>'{
+		} else if  input[0] == '>'{
 			var patt,replacement string;
 			var moreparseableinput = []rune(input);
 			var i int;
